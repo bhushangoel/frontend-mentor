@@ -1,0 +1,70 @@
+.todos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+ul.todo-list {
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.todo-list li {
+    background: hsl(235, 24%, 19%);
+    padding: 15px;
+    color: white;
+    border-bottom: 1px solid hsl(234, 39%, 85%);
+}
+
+.todo-list li:hover {
+    background: hsl(233, 14%, 35%);
+    cursor: pointer;
+}
+
+.list-item input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+.filter-container {
+    font-size: 14px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(233, 14%, 35%);
+    padding: 0 10px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.total-items {
+    cursor:initial;
+}
+
+.filters {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.clear-all {
+    cursor: pointer;
+}
+
+.filters li {
+    margin-right: 20px;
+}

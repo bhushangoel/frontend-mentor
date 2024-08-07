@@ -1,0 +1,49 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-box {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 20px 0;
+}
+
+h2 {
+    color: white;
+}
+
+.user-img {
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 80%;
+    text-align: center;
+}
+
+li.profile {
+    margin: 5px 0;
+    background: #333333;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li.profile>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}

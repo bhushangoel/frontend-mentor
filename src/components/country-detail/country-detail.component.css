@@ -1,0 +1,26 @@
+.detail-container {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.country-detail-flag {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.detail {
+    flex-direction: column;
+}
+
+.detail-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-around;
+}
